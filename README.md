@@ -56,33 +56,37 @@ During the business case, we need to address several challenges:
 
 There are multiple solutions for each challenge
 
+## To solve the challenges started with following steps
  
- Set up an Event hub
+ ### Set up an Event hub
  
 ![image](https://github.com/Vidisha84/Vendee_globe_business_case/assets/145435974/bdf85d03-a5db-41a2-9cb6-3810d42c9aa6)
 
 
 
-Downloaded and Configure the python sailing simulator
+### Downloaded and Configure the python sailing simulator
 
 ![image](https://github.com/Vidisha84/Vendee_globe_business_case/assets/145435974/3ba50dd5-2178-4863-90bb-fb94cb144253)
 
 
+### Connected Python stimulator with eventhub endpoints and name.It starts running
 
 ![image](https://github.com/Vidisha84/Vendee_globe_business_case/assets/145435974/34a32921-3379-4ec6-b017-bfbb087e327b)
 
 
-
+### Set up Stream Analytics for streaming data
 ![image](https://github.com/Vidisha84/Vendee_globe_business_case/assets/145435974/1e18f3cf-a5a7-4593-9c5f-952065215b62)
 
 
-
+### For batch data created Data lake storage Gen2
 ![image](https://github.com/Vidisha84/Vendee_globe_business_case/assets/145435974/802ccca3-8d41-4332-93f6-af251ff72c6d)
 
 
-Created a power Bi Output
+### Created Outputs
 
-![image](https://github.com/Vidisha84/Vendee_globe_business_case/assets/145435974/dc28a9e4-99bc-4278-ac6f-884d253ec995)
+![image](https://github.com/Vidisha84/Vendee_globe_business_case/assets/145435974/9df8c4dc-bbeb-4567-b28e-283f314e791c)
+
+
 
 
 
