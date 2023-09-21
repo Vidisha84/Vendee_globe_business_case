@@ -12,7 +12,7 @@ The Lambda Architecture should send all boat data to a PowerBI dashboard. The da
 
 When I initially developed this project, there was no ongoing Vendee Globe race. To work around this, I utilized an application that simulates real-time data from Vendee Globe Race participants. This app was not developed by me, but I incorporated it into my project to provide the necessary information. You can access the app through this link: https://github.com/mdfarragher/TCS/blob/main/race_simulator.py
 
-![Lambda architecture] (https://github.com/Vidisha84/Vendee_globe_business_case/blob/main/lambda.png)
+![Lambda architecture](https://github.com/Vidisha84/Vendee_globe_business_case/blob/main/lambda.png)
 
 
 To complete this business case, we need to do the following steps:
