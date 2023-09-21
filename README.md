@@ -30,3 +30,49 @@ To complete this business case, we need to do the following steps:
 
  ## Getting started
  To help us get started, guided instructions were provided to build the first piece of the Lambda Architecture which consisted of an Event Hub and instructions to get the Python sailing simulator up and running.
+
+To complete the business case, here's what needed to add:
+
+1. The remaining pieces of the Lambda Architecture: a Stream Analytics Job, an output to PowerBI, and a second output to a data storage service of your choice.
+
+2.A data storage service of your choice to store batch data: a Data Lake, a SQL Database, a Cosmos database, or a Synapse Analytics
+Workspace.
+
+3.A view or stored procedure or Synapse notebook to calculate the table of teams ranked by position in the race.
+
+4.A PowerBI dashboard that displays a world map with the current location of each racing team,and a table with the teams ranked by position in the race.
+
+## Challenges
+
+During the business case, we need to address several challenges:
+
+. The Python app occasionally produces garbled data. How are you going to ensure that only clean data arrives in the PowerBI dashboard?
+
+. How are you going to calculate the ranked list of sailing teams? How will you calculate who is ahead in the race?
+
+. Which data service are you going to use for the batch-processing path in the Lambda Architecture?
+
+. How will you present your data in the PowerBI dashboard?
+
+There are multiple solutions for each challenge
+
+ Set up an Event hub
+![image](https://github.com/Vidisha84/Vendee_globe_business_case/assets/145435974/bdf85d03-a5db-41a2-9cb6-3810d42c9aa6)
+
+Downloaded and Configure the python sailing simulator
+![image](https://github.com/Vidisha84/Vendee_globe_business_case/assets/145435974/3ba50dd5-2178-4863-90bb-fb94cb144253)
+
+![image](https://github.com/Vidisha84/Vendee_globe_business_case/assets/145435974/34a32921-3379-4ec6-b017-bfbb087e327b)
+
+![image](https://github.com/Vidisha84/Vendee_globe_business_case/assets/145435974/1e18f3cf-a5a7-4593-9c5f-952065215b62)
+
+![image](https://github.com/Vidisha84/Vendee_globe_business_case/assets/145435974/802ccca3-8d41-4332-93f6-af251ff72c6d)
+
+Created a power Bi Output
+![image](https://github.com/Vidisha84/Vendee_globe_business_case/assets/145435974/03d12bb5-7ca4-469b-a406-67c2746ccd4a)
+
+
+
+
+
+
