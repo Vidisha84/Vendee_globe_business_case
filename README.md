@@ -56,20 +56,34 @@ During the business case, we need to address several challenges:
 
 There are multiple solutions for each challenge
 
+ 
  Set up an Event hub
+ 
 ![image](https://github.com/Vidisha84/Vendee_globe_business_case/assets/145435974/bdf85d03-a5db-41a2-9cb6-3810d42c9aa6)
 
+
+
 Downloaded and Configure the python sailing simulator
+
 ![image](https://github.com/Vidisha84/Vendee_globe_business_case/assets/145435974/3ba50dd5-2178-4863-90bb-fb94cb144253)
+
+
 
 ![image](https://github.com/Vidisha84/Vendee_globe_business_case/assets/145435974/34a32921-3379-4ec6-b017-bfbb087e327b)
 
+
+
 ![image](https://github.com/Vidisha84/Vendee_globe_business_case/assets/145435974/1e18f3cf-a5a7-4593-9c5f-952065215b62)
+
+
 
 ![image](https://github.com/Vidisha84/Vendee_globe_business_case/assets/145435974/802ccca3-8d41-4332-93f6-af251ff72c6d)
 
+
 Created a power Bi Output
-![image](https://github.com/Vidisha84/Vendee_globe_business_case/assets/145435974/03d12bb5-7ca4-469b-a406-67c2746ccd4a)
+
+![image](https://github.com/Vidisha84/Vendee_globe_business_case/assets/145435974/dc28a9e4-99bc-4278-ac6f-884d253ec995)
+
 
 
 
