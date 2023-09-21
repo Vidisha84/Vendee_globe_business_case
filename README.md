@@ -18,8 +18,11 @@ When I initially developed this project, there was no ongoing Vendee Globe race.
 To complete this business case, we need to do the following steps:
 
 1.Create a Lambda Architecture in Azure with a real-time path and a batch-processing path. Our architecture should include an Event Hub, a Stream Analytics Job, and an output to PowerBI. The batch-processing path can use any data storage service you prefer: a Data Lake, a SQL Database, a Cosmos database, or a Synapse Analytics Workspace.
+
 2.Create a PowerBI dashboard that displays a world map with the current location of each racing team, and a table with the teams ranked by position in the race.
+
 3.Download the Python race simulation app to your local computer. Configure the app to send data to your EventHub.
+
 4.Start the Python app. Every 60 seconds, the telemetry of the simulated racing boats will be sent to your Azure cloud.
 
  You will have completed the business case if your PowerBI dashboard correctly shows the position and ranking of each sailing team in the 
