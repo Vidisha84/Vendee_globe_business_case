@@ -120,7 +120,7 @@ Cleaned the garbled data by changing the query into SELECT * INTO [outputdatalak
  ![image](https://github.com/Vidisha84/Vendee_globe_business_case/assets/145435974/53b1f351-c73b-4af7-a57b-7047fc22aea7)
 
 
-- These steps highlight the key actions undertaken in the Vendée Globe Data Engineering Business Case.
+The above steps outline the major tasks executed during the Vendée Globe Data Engineering Business Case.
 
 
 
