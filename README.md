@@ -63,7 +63,8 @@ There are multiple solutions for each challenge
   
 ![image](https://github.com/Vidisha84/Vendee_globe_business_case/assets/145435974/3ba50dd5-2178-4863-90bb-fb94cb144253)
  
- ### Set up an Event hub : Created and configured Event Hub Namespace and added a new Event Hub Established a Shared Access Policy for data transmission
+ ### Set up an Event hub 
+  Created and configured Event Hub Namespace and added a new Event Hub Established a Shared Access Policy for data transmission
  
 ![image](https://github.com/Vidisha84/Vendee_globe_business_case/assets/145435974/bdf85d03-a5db-41a2-9cb6-3810d42c9aa6)
 
@@ -80,7 +81,11 @@ Stream Analytics Job: Set up Stream Analytics Job with an input and two outputs:
 
 ![image](https://github.com/Vidisha84/Vendee_globe_business_case/assets/145435974/1e18f3cf-a5a7-4593-9c5f-952065215b62)
 
-### Stream Analytics Query: 
+- Created Outputs
+
+![image](https://github.com/Vidisha84/Vendee_globe_business_case/assets/145435974/9df8c4dc-bbeb-4567-b28e-283f314e791c)
+
+### Stream Analytics Query
 Cleaned the garbled data by changing the query into SELECT * INTO [outputdatalake] FROM [inputevent] WHERE latitude > -10000 AND longitude > -10000 and SELECT * INTO [outputpowerbi] FROM [inputevent] WHERE latitude > -10000 AND longitude > -10000
 
 
@@ -118,9 +123,7 @@ Cleaned the garbled data by changing the query into SELECT * INTO [outputdatalak
 - These steps highlight the key actions undertaken in the Vendée Globe Data Engineering Business Case.
 
 
-### Created Outputs
 
-![image](https://github.com/Vidisha84/Vendee_globe_business_case/assets/145435974/9df8c4dc-bbeb-4567-b28e-283f314e791c)
 
 
 
