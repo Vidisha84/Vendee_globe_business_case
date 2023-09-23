@@ -57,34 +57,75 @@ During the business case, we need to address several challenges:
 There are multiple solutions for each challenge
 
 ## To solve the challenges started with following steps
+
+ ### Downloaded and Configure the python sailing simulator
+  Launched the Python simulator for telemetry data generation using Windows Power Shell
+  
+![image](https://github.com/Vidisha84/Vendee_globe_business_case/assets/145435974/3ba50dd5-2178-4863-90bb-fb94cb144253)
  
- ### Set up an Event hub
+ ### Set up an Event hub : Created and configured Event Hub Namespace and added a new Event Hub Established a Shared Access Policy for data transmission
  
 ![image](https://github.com/Vidisha84/Vendee_globe_business_case/assets/145435974/bdf85d03-a5db-41a2-9cb6-3810d42c9aa6)
 
-
-
-### Downloaded and Configure the python sailing simulator
-
-![image](https://github.com/Vidisha84/Vendee_globe_business_case/assets/145435974/3ba50dd5-2178-4863-90bb-fb94cb144253)
+![image](https://github.com/Vidisha84/Vendee_globe_business_case/assets/145435974/429a43eb-b075-4596-8049-738424b1c7b4)
 
 
 ### Connected Python stimulator with eventhub endpoints and name.It starts running
 
 ![image](https://github.com/Vidisha84/Vendee_globe_business_case/assets/145435974/34a32921-3379-4ec6-b017-bfbb087e327b)
 
-
 ### Set up Stream Analytics for streaming data
+
+Stream Analytics Job: Set up Stream Analytics Job with an input and two outputs: one for the Data Lake, and one for PowerBI.
+
 ![image](https://github.com/Vidisha84/Vendee_globe_business_case/assets/145435974/1e18f3cf-a5a7-4593-9c5f-952065215b62)
+
+### Stream Analytics Query: 
+Cleaned the garbled data by changing the query into SELECT * INTO [outputdatalake] FROM [inputevent] WHERE latitude > -10000 AND longitude > -10000 and SELECT * INTO [outputpowerbi] FROM [inputevent] WHERE latitude > -10000 AND longitude > -10000
+
 
 
 ### For batch data created Data lake storage Gen2
-![image](https://github.com/Vidisha84/Vendee_globe_business_case/assets/145435974/802ccca3-8d41-4332-93f6-af251ff72c6d)
+
+- Created and named Azure Storage Account for Data Lake Gen2.
+
+  ![image](https://github.com/Vidisha84/Vendee_globe_business_case/assets/145435974/802ccca3-8d41-4332-93f6-af251ff72c6d)
+  
+- Utilize the Data Lake in Azure Synapse Analytics to create a serverless SQL pool.
+
+- Created an external table for ranking boat data, leveraging Data Lake Gen2 as a data source.
+
+  ![image](https://github.com/Vidisha84/Vendee_globe_business_case/assets/145435974/dcc68b17-bbfa-46b8-86c3-94da81cdbcec)
+
+
+
+
+
+### Power BI Dashboard:
+
+- Created a workspace in Power BI Service.
+
+![image](https://github.com/Vidisha84/Vendee_globe_business_case/assets/145435974/4b18f0ab-158d-4223-9448-7e04f9460156)
+
+  
+- Developed real-time data visualization, including a maps and a live tile.
+
+ ![image](https://github.com/Vidisha84/Vendee_globe_business_case/assets/145435974/be1ba8a8-61d4-48c0-be17-9756534bc7c7)
+
+ ![image](https://github.com/Vidisha84/Vendee_globe_business_case/assets/145435974/53b1f351-c73b-4af7-a57b-7047fc22aea7)
+
+
+- These steps highlight the key actions undertaken in the Vendée Globe Data Engineering Business Case.
 
 
 ### Created Outputs
 
 ![image](https://github.com/Vidisha84/Vendee_globe_business_case/assets/145435974/9df8c4dc-bbeb-4567-b28e-283f314e791c)
+
+
+
+
+
 
 
 
