@@ -100,11 +100,7 @@ Cleaned the garbled data by changing the query into SELECT * INTO [outputdatalak
 
 - Created an external table for ranking boat data, leveraging Data Lake Gen2 as a data source.
 
-  ![image](https://github.com/Vidisha84/Vendee_globe_business_case/assets/145435974/dcc68b17-bbfa-46b8-86c3-94da81cdbcec)
-
-
-
-
+  
 
 ### Power BI Dashboard:
 
