@@ -1,7 +1,7 @@
 # Vendee_globe_business_case
-The Vendée Globe is a solo non-stop round the world sailboatrace founded by Philippe Jeantot in 1989. The race takes placeevery four years and is considered an extreme quest ofindividual endurance and the ultimate test in ocean racing.
-The 9th edition of the Vendee Globe was held in 2020-2021and was won by French sailor Yannick Bestaven who tookslightly over 80 days to sail non-stop around the globe.
-During the race, spectators could follow the action live on anonline racing dashboard. The technology for tracking the boatslive was provided by Nokia.
+The Vendée Globe is a solo non-stop round the world sail boatrace founded by Philippe Jeantot in 1989. The race takes place every four years and is considered an extreme quest of individual endurance and the ultimate test in ocean racing.
+The 9th edition of the Vendee Globe was held in 2020-2021 and was won by French sailor Yannick Bestaven who took slightly over 80 days to sail non-stop around the globe.
+During the race, spectators could follow the action live on an online racing dashboard. The technology for tracking the boats live was provided by Nokia.
 
 ## Your Challenge
 In this business case, you will assume the role of Nokia. You will build a cloud-based Lambda Architecture to process the telemetry data from the sailing boats. 
